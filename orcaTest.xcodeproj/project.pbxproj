@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2EB0821C19554B00E94493 /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EB0811C19554B00E94493 /* Vectors.swift */; };
+		9F2EB0841C19558300E94493 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EB0831C19558300E94493 /* Shapes.swift */; };
+		9F77BE591C15F7B6001D390B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77BE581C15F7B6001D390B /* AppDelegate.swift */; };
+		9F77BE5B1C15F7B6001D390B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77BE5A1C15F7B6001D390B /* ViewController.swift */; };
+		9F77BE5D1C15F7B6001D390B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F77BE5C1C15F7B6001D390B /* Assets.xcassets */; };
+		9F77BE601C15F7B6001D390B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F77BE5E1C15F7B6001D390B /* Main.storyboard */; };
+		9F77BE6B1C15F7B6001D390B /* orcaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77BE6A1C15F7B6001D390B /* orcaTestTests.swift */; };
+		9F77BE761C15F7B6001D390B /* orcaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77BE751C15F7B6001D390B /* orcaTestUITests.swift */; };
+		9FC6F9C01C1983BB00AE7C95 /* RVO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC6F9BF1C1983BB00AE7C95 /* RVO2.swift */; };
+		9FE86F031C18163B00C07738 /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE86F021C18163B00C07738 /* Rect.swift */; };
+		9FE86F071C1822FC00C07738 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE86F061C1822FC00C07738 /* QuadTree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F77BE671C15F7B6001D390B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F77BE4D1C15F7B6001D390B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F77BE541C15F7B6001D390B;
+			remoteInfo = orcaTest;
+		};
+		9F77BE721C15F7B6001D390B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F77BE4D1C15F7B6001D390B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F77BE541C15F7B6001D390B;
+			remoteInfo = orcaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F2EB0811C19554B00E94493 /* Vectors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vectors.swift; sourceTree = "<group>"; };
+		9F2EB0831C19558300E94493 /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		9F77BE551C15F7B6001D390B /* orcaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orcaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F77BE581C15F7B6001D390B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F77BE5A1C15F7B6001D390B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F77BE5C1C15F7B6001D390B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F77BE5F1C15F7B6001D390B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F77BE611C15F7B6001D390B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F77BE661C15F7B6001D390B /* orcaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orcaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F77BE6A1C15F7B6001D390B /* orcaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orcaTestTests.swift; sourceTree = "<group>"; };
+		9F77BE6C1C15F7B6001D390B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F77BE711C15F7B6001D390B /* orcaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orcaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F77BE751C15F7B6001D390B /* orcaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orcaTestUITests.swift; sourceTree = "<group>"; };
+		9F77BE771C15F7B6001D390B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC6F9BF1C1983BB00AE7C95 /* RVO2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVO2.swift; sourceTree = "<group>"; };
+		9FE86F021C18163B00C07738 /* Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
+		9FE86F061C1822FC00C07738 /* QuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F77BE521C15F7B6001D390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F77BE631C15F7B6001D390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F77BE6E1C15F7B6001D390B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F77BE4C1C15F7B6001D390B = {
+			isa = PBXGroup;
+			children = (
+				9F77BE571C15F7B6001D390B /* orcaTest */,
+				9F77BE691C15F7B6001D390B /* orcaTestTests */,
+				9F77BE741C15F7B6001D390B /* orcaTestUITests */,
+				9F77BE561C15F7B6001D390B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F77BE561C15F7B6001D390B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F77BE551C15F7B6001D390B /* orcaTest.app */,
+				9F77BE661C15F7B6001D390B /* orcaTestTests.xctest */,
+				9F77BE711C15F7B6001D390B /* orcaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F77BE571C15F7B6001D390B /* orcaTest */ = {
+			isa = PBXGroup;
+			children = (
+				9F77BE581C15F7B6001D390B /* AppDelegate.swift */,
+				9F2EB0811C19554B00E94493 /* Vectors.swift */,
+				9FE86F021C18163B00C07738 /* Rect.swift */,
+				9F2EB0831C19558300E94493 /* Shapes.swift */,
+				9FE86F061C1822FC00C07738 /* QuadTree.swift */,
+				9FC6F9BF1C1983BB00AE7C95 /* RVO2.swift */,
+				9F77BE5A1C15F7B6001D390B /* ViewController.swift */,
+				9F77BE5C1C15F7B6001D390B /* Assets.xcassets */,
+				9F77BE5E1C15F7B6001D390B /* Main.storyboard */,
+				9F77BE611C15F7B6001D390B /* Info.plist */,
+			);
+			path = orcaTest;
+			sourceTree = "<group>";
+		};
+		9F77BE691C15F7B6001D390B /* orcaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F77BE6A1C15F7B6001D390B /* orcaTestTests.swift */,
+				9F77BE6C1C15F7B6001D390B /* Info.plist */,
+			);
+			path = orcaTestTests;
+			sourceTree = "<group>";
+		};
+		9F77BE741C15F7B6001D390B /* orcaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F77BE751C15F7B6001D390B /* orcaTestUITests.swift */,
+				9F77BE771C15F7B6001D390B /* Info.plist */,
+			);
+			path = orcaTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F77BE541C15F7B6001D390B /* orcaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F77BE7A1C15F7B6001D390B /* Build configuration list for PBXNativeTarget "orcaTest" */;
+			buildPhases = (
+				9F77BE511C15F7B6001D390B /* Sources */,
+				9F77BE521C15F7B6001D390B /* Frameworks */,
+				9F77BE531C15F7B6001D390B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = orcaTest;
+			productName = orcaTest;
+			productReference = 9F77BE551C15F7B6001D390B /* orcaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F77BE651C15F7B6001D390B /* orcaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F77BE7D1C15F7B6001D390B /* Build configuration list for PBXNativeTarget "orcaTestTests" */;
+			buildPhases = (
+				9F77BE621C15F7B6001D390B /* Sources */,
+				9F77BE631C15F7B6001D390B /* Frameworks */,
+				9F77BE641C15F7B6001D390B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F77BE681C15F7B6001D390B /* PBXTargetDependency */,
+			);
+			name = orcaTestTests;
+			productName = orcaTestTests;
+			productReference = 9F77BE661C15F7B6001D390B /* orcaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F77BE701C15F7B6001D390B /* orcaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F77BE801C15F7B6001D390B /* Build configuration list for PBXNativeTarget "orcaTestUITests" */;
+			buildPhases = (
+				9F77BE6D1C15F7B6001D390B /* Sources */,
+				9F77BE6E1C15F7B6001D390B /* Frameworks */,
+				9F77BE6F1C15F7B6001D390B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F77BE731C15F7B6001D390B /* PBXTargetDependency */,
+			);
+			name = orcaTestUITests;
+			productName = orcaTestUITests;
+			productReference = 9F77BE711C15F7B6001D390B /* orcaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F77BE4D1C15F7B6001D390B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SunDance;
+				TargetAttributes = {
+					9F77BE541C15F7B6001D390B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9F77BE651C15F7B6001D390B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9F77BE541C15F7B6001D390B;
+					};
+					9F77BE701C15F7B6001D390B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9F77BE541C15F7B6001D390B;
+					};
+				};
+			};
+			buildConfigurationList = 9F77BE501C15F7B6001D390B /* Build configuration list for PBXProject "orcaTest" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F77BE4C1C15F7B6001D390B;
+			productRefGroup = 9F77BE561C15F7B6001D390B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F77BE541C15F7B6001D390B /* orcaTest */,
+				9F77BE651C15F7B6001D390B /* orcaTestTests */,
+				9F77BE701C15F7B6001D390B /* orcaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F77BE531C15F7B6001D390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F77BE5D1C15F7B6001D390B /* Assets.xcassets in Resources */,
+				9F77BE601C15F7B6001D390B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F77BE641C15F7B6001D390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F77BE6F1C15F7B6001D390B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F77BE511C15F7B6001D390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2EB0841C19558300E94493 /* Shapes.swift in Sources */,
+				9F77BE5B1C15F7B6001D390B /* ViewController.swift in Sources */,
+				9F77BE591C15F7B6001D390B /* AppDelegate.swift in Sources */,
+				9FE86F071C1822FC00C07738 /* QuadTree.swift in Sources */,
+				9F2EB0821C19554B00E94493 /* Vectors.swift in Sources */,
+				9FC6F9C01C1983BB00AE7C95 /* RVO2.swift in Sources */,
+				9FE86F031C18163B00C07738 /* Rect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F77BE621C15F7B6001D390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F77BE6B1C15F7B6001D390B /* orcaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F77BE6D1C15F7B6001D390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F77BE761C15F7B6001D390B /* orcaTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F77BE681C15F7B6001D390B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F77BE541C15F7B6001D390B /* orcaTest */;
+			targetProxy = 9F77BE671C15F7B6001D390B /* PBXContainerItemProxy */;
+		};
+		9F77BE731C15F7B6001D390B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F77BE541C15F7B6001D390B /* orcaTest */;
+			targetProxy = 9F77BE721C15F7B6001D390B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F77BE5E1C15F7B6001D390B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F77BE5F1C15F7B6001D390B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F77BE781C15F7B6001D390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F77BE791C15F7B6001D390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9F77BE7B1C15F7B6001D390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = orcaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundance.orcaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		9F77BE7C1C15F7B6001D390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = orcaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundance.orcaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9F77BE7E1C15F7B6001D390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = orcaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundance.orcaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orcaTest.app/Contents/MacOS/orcaTest";
+			};
+			name = Debug;
+		};
+		9F77BE7F1C15F7B6001D390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = orcaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundance.orcaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orcaTest.app/Contents/MacOS/orcaTest";
+			};
+			name = Release;
+		};
+		9F77BE811C15F7B6001D390B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = orcaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundance.orcaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = orcaTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F77BE821C15F7B6001D390B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = orcaTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sundance.orcaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = orcaTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F77BE501C15F7B6001D390B /* Build configuration list for PBXProject "orcaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F77BE781C15F7B6001D390B /* Debug */,
+				9F77BE791C15F7B6001D390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F77BE7A1C15F7B6001D390B /* Build configuration list for PBXNativeTarget "orcaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F77BE7B1C15F7B6001D390B /* Debug */,
+				9F77BE7C1C15F7B6001D390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F77BE7D1C15F7B6001D390B /* Build configuration list for PBXNativeTarget "orcaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F77BE7E1C15F7B6001D390B /* Debug */,
+				9F77BE7F1C15F7B6001D390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F77BE801C15F7B6001D390B /* Build configuration list for PBXNativeTarget "orcaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F77BE811C15F7B6001D390B /* Debug */,
+				9F77BE821C15F7B6001D390B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F77BE4D1C15F7B6001D390B /* Project object */;
+}
